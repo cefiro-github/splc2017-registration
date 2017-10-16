@@ -1,0 +1,84 @@
+/* HTML TAGS */
+.ui-state-active a, .ui-state-active a:link{
+  color: #f44 !important;;
+}
+
+#registrationform{
+  font-size: 0.8em;
+}
+
+#registrationform fieldset
+{
+  display: block;
+  margin: 0 0 3em 0;
+  padding: 0 1em 1em 1em;
+}
+
+
+#registrationform input
+{
+  display: block;
+  width: 15em;
+  font-size: 1em;
+  line-height: 26px;
+  height: 26px;
+}
+
+#registrationform span{
+  display: block;
+  clear: both;
+  margin: 2px;
+}
+
+#registrationform span label{
+  float: left;
+  margin: 10px;
+}
+
+#registrationform select{
+  display: block;
+  font-size: 1em;
+  height:30px;
+  padding: 0px;
+  line-height:30px;
+}
+
+#registrationform input[type=radio]
+{
+  float: left;
+  width: auto;
+  margin: 5px 0 5px 0;
+}
+#registrationform input[type=checkbox]
+{
+  float: left;
+  width: auto;
+  margin: 5px 0 5px 0;
+}
+
+#registrationform input.submit
+{
+  clear: both;
+}
+
+#registrationform strong
+{
+  color:red;
+}
+
+#registrationform label
+{
+  float: left;
+  display: block;
+  margin: 1em 1em 0 0;
+  font-weight: bold;
+}
+
+
+/* CLASSES */
+#registrationform label.error{
+    margin-left:10px;
+    width:auto;
+    color:red;
+    display:inline;
+}
